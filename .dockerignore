@@ -1,0 +1,41 @@
+# Exclude IDE and editor configuration files  
+**/.classpath  
+**/.dockerignore  
+**/.env  
+**/.git  
+**/.gitignore  
+**/.project  
+**/.settings  
+**/.toolstarget  
+**/.vs  
+**/.vscode  
+**/*.*proj.user  
+  
+# Exclude temporary and build output directories and files  
+**/*.dbmdl  
+**/*.jfm  
+**/bin  
+**/obj  
+**/node_modules  
+**/npm-debug.log  
+  
+# Exclude Docker and Kubernetes configuration files  
+**/azds.yaml  
+**/charts  
+**/docker-compose*  
+**/Dockerfile*  
+**/secrets.dev.yaml  
+**/values.dev.yaml  
+  
+# Exclude documentation files  
+LICENSE  
+README.md  
+  
+# Include necessary .gitignore files to maintain rules inside the container (if needed)  
+!**/.gitignore  
+  
+# Include specific .git files to maintain repository state (if needed)  
+!.git/HEAD  
+!.git/config  
+!.git/packed-refs  
+!.git/refs/heads/**  
